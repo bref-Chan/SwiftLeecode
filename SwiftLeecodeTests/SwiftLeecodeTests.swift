@@ -23,6 +23,18 @@ class SwiftLeecodeTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testTowSum() throws {
+        var nums : [Int] = [2,7,11,15];
+        var target = 9;
+        var result = TwoNumber.twoSum(nums, target)
+        
+        var testResult = 0;
+        for (index,number) in result.enumerated() {
+            testResult += number;
+        }
+        XCTAssert(testResult == target,"两数之和测试未通过")
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
@@ -31,3 +43,5 @@ class SwiftLeecodeTests: XCTestCase {
     }
 
 }
+
+

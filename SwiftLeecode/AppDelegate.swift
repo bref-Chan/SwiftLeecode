@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        test()
         return true
     }
 
@@ -32,5 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    func test() {
+        print(TwoNumber.twoSum([3,2,4], 6))
+    }
+    
+    
 }
 
