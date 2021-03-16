@@ -16,6 +16,8 @@
 		FC3AE3A725FFA649008D5022 /* SwiftLeecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3A625FFA649008D5022 /* SwiftLeecodeTests.swift */; };
 		FC3AE3B225FFA649008D5022 /* SwiftLeecodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3B125FFA649008D5022 /* SwiftLeecodeUITests.swift */; };
 		FC3AE3C425FFA673008D5022 /* TwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3C325FFA673008D5022 /* TwoNumber.swift */; };
+		FC3AE3D22600DDC6008D5022 /* RunningSumOf1dArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */; };
+		FC3AE3D72600E0E5008D5022 /* RunningSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FC3AE3B125FFA649008D5022 /* SwiftLeecodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeecodeUITests.swift; sourceTree = "<group>"; };
 		FC3AE3B325FFA649008D5022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC3AE3C325FFA673008D5022 /* TwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumber.swift; sourceTree = "<group>"; };
+		FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumOf1dArray.swift; sourceTree = "<group>"; };
+		FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,7 @@
 		FC3AE38E25FFA648008D5022 /* SwiftLeecode */ = {
 			isa = PBXGroup;
 			children = (
-				FC3AE3C225FFA658008D5022 /* 两数之和 */,
+				FC3AE3C225FFA658008D5022 /* 简单 */,
 				FC3AE38F25FFA648008D5022 /* AppDelegate.swift */,
 				FC3AE39125FFA648008D5022 /* SceneDelegate.swift */,
 				FC3AE39325FFA648008D5022 /* ViewController.swift */,
@@ -118,6 +122,7 @@
 			children = (
 				FC3AE3A625FFA649008D5022 /* SwiftLeecodeTests.swift */,
 				FC3AE3A825FFA649008D5022 /* Info.plist */,
+				FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */,
 			);
 			path = SwiftLeecodeTests;
 			sourceTree = "<group>";
@@ -131,12 +136,13 @@
 			path = SwiftLeecodeUITests;
 			sourceTree = "<group>";
 		};
-		FC3AE3C225FFA658008D5022 /* 两数之和 */ = {
+		FC3AE3C225FFA658008D5022 /* 简单 */ = {
 			isa = PBXGroup;
 			children = (
 				FC3AE3C325FFA673008D5022 /* TwoNumber.swift */,
+				FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */,
 			);
-			path = "两数之和";
+			path = "简单";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3AE3D22600DDC6008D5022 /* RunningSumOf1dArray.swift in Sources */,
 				FC3AE39425FFA648008D5022 /* ViewController.swift in Sources */,
 				FC3AE3C425FFA673008D5022 /* TwoNumber.swift in Sources */,
 				FC3AE39025FFA648008D5022 /* AppDelegate.swift in Sources */,
@@ -281,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3AE3A725FFA649008D5022 /* SwiftLeecodeTests.swift in Sources */,
+				FC3AE3D72600E0E5008D5022 /* RunningSumTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
