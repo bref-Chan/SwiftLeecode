@@ -18,6 +18,8 @@
 		FC3AE3C425FFA673008D5022 /* TwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3C325FFA673008D5022 /* TwoNumber.swift */; };
 		FC3AE3D22600DDC6008D5022 /* RunningSumOf1dArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */; };
 		FC3AE3D72600E0E5008D5022 /* RunningSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */; };
+		FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */; };
+		FC706041260339AB00AEE91D /* JewelsAndStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */; };
 		FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AED26022F0E00645C0B /* 58-LCOF.swift */; };
 		FC980AF62602314400645C0B /* LCOFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AF52602314400645C0B /* LCOFTest.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		FC3AE3C325FFA673008D5022 /* TwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumber.swift; sourceTree = "<group>"; };
 		FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumOf1dArray.swift; sourceTree = "<group>"; };
 		FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumTest.swift; sourceTree = "<group>"; };
+		FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "771-JewelsAndStones.swift"; sourceTree = "<group>"; };
+		FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTest.swift; sourceTree = "<group>"; };
 		FC980AED26022F0E00645C0B /* 58-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58-LCOF.swift"; sourceTree = "<group>"; };
 		FC980AF52602314400645C0B /* LCOFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOFTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3AE3A625FFA649008D5022 /* SwiftLeecodeTests.swift */,
+				FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */,
 				FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */,
 				FC980AF52602314400645C0B /* LCOFTest.swift */,
 				FC3AE3A825FFA649008D5022 /* Info.plist */,
@@ -147,6 +152,7 @@
 				FC3AE3C325FFA673008D5022 /* TwoNumber.swift */,
 				FC980AED26022F0E00645C0B /* 58-LCOF.swift */,
 				FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */,
+				FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */,
 			);
 			path = "简单";
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				FC3AE3C425FFA673008D5022 /* TwoNumber.swift in Sources */,
 				FC3AE39025FFA648008D5022 /* AppDelegate.swift in Sources */,
 				FC3AE39225FFA648008D5022 /* SceneDelegate.swift in Sources */,
+				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC980AF62602314400645C0B /* LCOFTest.swift in Sources */,
+				FC706041260339AB00AEE91D /* JewelsAndStonesTest.swift in Sources */,
 				FC3AE3A725FFA649008D5022 /* SwiftLeecodeTests.swift in Sources */,
 				FC3AE3D72600E0E5008D5022 /* RunningSumTest.swift in Sources */,
 			);
