@@ -20,10 +20,13 @@
 		FC3AE3D72600E0E5008D5022 /* RunningSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */; };
 		FC3FBE9226034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9126034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift */; };
 		FC3FBE9726035C6600E9240C /* KidsWithCandiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9626035C6600E9240C /* KidsWithCandiesTest.swift */; };
+		FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9B2603649B00E9240C /* AddDigits.swift */; };
 		FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */; };
 		FC706041260339AB00AEE91D /* JewelsAndStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */; };
 		FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AED26022F0E00645C0B /* 58-LCOF.swift */; };
 		FC980AF62602314400645C0B /* LCOFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AF52602314400645C0B /* LCOFTest.swift */; };
+		FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */; };
+		FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +66,13 @@
 		FC3AE3D62600E0E5008D5022 /* RunningSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumTest.swift; sourceTree = "<group>"; };
 		FC3FBE9126034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431-KidsWithTheGreatestNumberOfCandies.swift"; sourceTree = "<group>"; };
 		FC3FBE9626035C6600E9240C /* KidsWithCandiesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsWithCandiesTest.swift; sourceTree = "<group>"; };
+		FC3FBE9B2603649B00E9240C /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
 		FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "771-JewelsAndStones.swift"; sourceTree = "<group>"; };
 		FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTest.swift; sourceTree = "<group>"; };
 		FC980AED26022F0E00645C0B /* 58-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58-LCOF.swift"; sourceTree = "<group>"; };
 		FC980AF52602314400645C0B /* LCOFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOFTest.swift; sourceTree = "<group>"; };
+		FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroOnePackage.swift; sourceTree = "<group>"; };
+		FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309-BestTimeToBuy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		FC3AE38E25FFA648008D5022 /* SwiftLeecode */ = {
 			isa = PBXGroup;
 			children = (
+				FCF9DAED2604AA9F0035DC4D /* 中等 */,
 				FC3AE3C225FFA658008D5022 /* 简单 */,
 				FC3AE38F25FFA648008D5022 /* AppDelegate.swift */,
 				FC3AE39125FFA648008D5022 /* SceneDelegate.swift */,
@@ -159,8 +166,18 @@
 				FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */,
 				FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */,
 				FC3FBE9126034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift */,
+				FC3FBE9B2603649B00E9240C /* AddDigits.swift */,
 			);
 			path = "简单";
+			sourceTree = "<group>";
+		};
+		FCF9DAED2604AA9F0035DC4D /* 中等 */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */,
+				FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */,
+			);
+			path = "中等";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */,
 				FC3AE3D22600DDC6008D5022 /* RunningSumOf1dArray.swift in Sources */,
 				FC3AE39425FFA648008D5022 /* ViewController.swift in Sources */,
 				FC3FBE9226034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift in Sources */,
@@ -301,6 +319,8 @@
 				FC3AE39225FFA648008D5022 /* SceneDelegate.swift in Sources */,
 				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
+				FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */,
+				FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
