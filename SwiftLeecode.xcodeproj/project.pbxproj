@@ -27,6 +27,7 @@
 		FC980AF62602314400645C0B /* LCOFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AF52602314400645C0B /* LCOFTest.swift */; };
 		FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */; };
 		FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */; };
+		FCF9DAFF260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAFE260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		FC980AF52602314400645C0B /* LCOFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOFTest.swift; sourceTree = "<group>"; };
 		FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroOnePackage.swift; sourceTree = "<group>"; };
 		FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309-BestTimeToBuy.swift"; sourceTree = "<group>"; };
+		FCF9DAFE260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "637.-AverageOfLevelsInBinaryTree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */,
 				FC3FBE9126034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift */,
 				FC3FBE9B2603649B00E9240C /* AddDigits.swift */,
+				FCF9DAFE260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift */,
 			);
 			path = "简单";
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				FC3AE3C425FFA673008D5022 /* TwoNumber.swift in Sources */,
 				FC3AE39025FFA648008D5022 /* AppDelegate.swift in Sources */,
 				FC3AE39225FFA648008D5022 /* SceneDelegate.swift in Sources */,
+				FCF9DAFF260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift in Sources */,
 				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
 				FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */,
