@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        print(BestTimeToBuy.maxProfit([1,2,3,0,2]));
+        print(SDTAC.shortestToChar("aaba","b"));
     }
     
     
