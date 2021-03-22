@@ -34,7 +34,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        print(SDTAC.shortestToChar("aaba","b"));
+        var queue = IQUS.init()
+        queue.push(1)
+        queue.push(2)
+        queue.push(3)
+        queue.push(4)
+        queue.pop()
+        queue.push(5)
+        queue.pop()
+        queue.pop()
+        queue.pop()
+        queue.pop()
     }
     
     

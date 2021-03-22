@@ -21,6 +21,7 @@
 		FC3FBE9226034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9126034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift */; };
 		FC3FBE9726035C6600E9240C /* KidsWithCandiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9626035C6600E9240C /* KidsWithCandiesTest.swift */; };
 		FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9B2603649B00E9240C /* AddDigits.swift */; };
+		FC5275DF2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */; };
 		FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */; };
 		FC706041260339AB00AEE91D /* JewelsAndStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */; };
 		FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AED26022F0E00645C0B /* 58-LCOF.swift */; };
@@ -69,6 +70,7 @@
 		FC3FBE9126034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431-KidsWithTheGreatestNumberOfCandies.swift"; sourceTree = "<group>"; };
 		FC3FBE9626035C6600E9240C /* KidsWithCandiesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsWithCandiesTest.swift; sourceTree = "<group>"; };
 		FC3FBE9B2603649B00E9240C /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
+		FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232-ImplementQueueUsingStacks.swift"; sourceTree = "<group>"; };
 		FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "771-JewelsAndStones.swift"; sourceTree = "<group>"; };
 		FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTest.swift; sourceTree = "<group>"; };
 		FC980AED26022F0E00645C0B /* 58-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58-LCOF.swift"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3AE3C325FFA673008D5022 /* TwoNumber.swift */,
+				FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */,
 				FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */,
 				FC980AED26022F0E00645C0B /* 58-LCOF.swift */,
 				FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */,
@@ -327,6 +330,7 @@
 				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
 				FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */,
+				FC5275DF2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift in Sources */,
 				FCC1B2A426079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift in Sources */,
 				FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */,
 			);
