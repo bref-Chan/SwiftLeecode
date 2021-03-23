@@ -26,6 +26,7 @@
 		FC706041260339AB00AEE91D /* JewelsAndStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */; };
 		FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AED26022F0E00645C0B /* 58-LCOF.swift */; };
 		FC980AF62602314400645C0B /* LCOFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AF52602314400645C0B /* LCOFTest.swift */; };
+		FC9FBB60260A10DC00D00894 /* 169-MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FBB5F260A10DC00D00894 /* 169-MajorityElement.swift */; };
 		FCC1B2A426079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */; };
 		FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */; };
 		FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */; };
@@ -75,6 +76,7 @@
 		FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTest.swift; sourceTree = "<group>"; };
 		FC980AED26022F0E00645C0B /* 58-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58-LCOF.swift"; sourceTree = "<group>"; };
 		FC980AF52602314400645C0B /* LCOFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOFTest.swift; sourceTree = "<group>"; };
+		FC9FBB5F260A10DC00D00894 /* 169-MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169-MajorityElement.swift"; sourceTree = "<group>"; };
 		FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821-ShortestDistanceToACharacter.swift"; sourceTree = "<group>"; };
 		FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroOnePackage.swift; sourceTree = "<group>"; };
 		FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309-BestTimeToBuy.swift"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				FC3AE3C325FFA673008D5022 /* TwoNumber.swift */,
 				FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */,
+				FC9FBB5F260A10DC00D00894 /* 169-MajorityElement.swift */,
 				FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */,
 				FC980AED26022F0E00645C0B /* 58-LCOF.swift */,
 				FC3AE3D12600DDC6008D5022 /* RunningSumOf1dArray.swift */,
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9FBB60260A10DC00D00894 /* 169-MajorityElement.swift in Sources */,
 				FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */,
 				FC3AE3D22600DDC6008D5022 /* RunningSumOf1dArray.swift in Sources */,
 				FC3AE39425FFA648008D5022 /* ViewController.swift in Sources */,
