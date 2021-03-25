@@ -34,7 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        print(OneThreeTwoPattern.find132pattern([-2,1,-2]))
+        var head : ListNode = ListNode.init(1, ListNode.init(2, ListNode.init(3, ListNode.init(3, ListNode.init(4, ListNode.init(4, ListNode.init(5, nil)))))))
+        print(RemoveDuplicates.deleteDuplicates(head))
     }
     
     
