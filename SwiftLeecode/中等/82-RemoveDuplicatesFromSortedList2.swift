@@ -28,7 +28,7 @@ public class ListNode {
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
-class RemoveDuplicates {
+class RemoveDuplicates2 {
     static func deleteDuplicates(_ head: ListNode?) -> ListNode? {
         
         //初级版本

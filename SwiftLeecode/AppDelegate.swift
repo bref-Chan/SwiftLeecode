@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func test() {
         var head : ListNode = ListNode.init(1, ListNode.init(2, ListNode.init(3, ListNode.init(3, ListNode.init(4, ListNode.init(4, ListNode.init(5, nil)))))))
-        print(RemoveDuplicates.deleteDuplicates(head))
+        print(RemoveDuplicates2.deleteDuplicates(head))
     }
     
     
