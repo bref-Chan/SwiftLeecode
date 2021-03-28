@@ -13,33 +13,31 @@ import Foundation
 
 class PrintBinaryTree {
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
-        guard let root = root else {
-                return []
-              }
-        var res = [[Int]]()
+        if root == nil {
+            return [];
+        }
+        
         var queue = [TreeNode]()
-        queue.append(root)
-            
+        var result = [[Int]]()
+        
+        queue.append(root!)
         while !queue.isEmpty {
-        
-        var temp = [TreeNode]()
-        var array = [Int]()
-        
-        while !queue.isEmpty {
-            let node = queue.removeFirst()
-            array.append(node.val)
-            if node.left != nil {
-            temp.append(node.left!)
+            let length = queue.count
+            var temp = [Int]()
+            for _ in 0..<length {
+                let node = queue.removeFirst()
+                temp.append(node.val)
+                
+                if node.left != nil {
+                    queue.append(node.left!)
+                }
+                
+                if node.right != nil {
+                    queue.append(node.right!)
+                }
             }
-            if node.right != nil {
-            temp.append(node.right!)
-            }
+            result.append(temp)
         }
-        
-        res.append(array)
-        queue.append(contentsOf: temp)
-        }
-        return res
-            
+        return result
     }
 }

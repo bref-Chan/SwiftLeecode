@@ -33,6 +33,7 @@
 		FCA992B8260F79CB0037B653 /* 61-RotateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992B7260F79CB0037B653 /* 61-RotateList.swift */; };
 		FCA992BD260F8E160037B653 /* Orfer22-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992BC260F8E160037B653 /* Orfer22-LCOF.swift */; };
 		FCA992C22610DC920037B653 /* Offer-32PrintBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992C12610DC920037B653 /* Offer-32PrintBinaryTree.swift */; };
+		FCA992C72610E01C0037B653 /* 0201RemoveDuplicateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992C62610E01C0037B653 /* 0201RemoveDuplicateNode.swift */; };
 		FCC1B2A426079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */; };
 		FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */; };
 		FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */; };
@@ -89,6 +90,7 @@
 		FCA992B7260F79CB0037B653 /* 61-RotateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61-RotateList.swift"; sourceTree = "<group>"; };
 		FCA992BC260F8E160037B653 /* Orfer22-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Orfer22-LCOF.swift"; sourceTree = "<group>"; };
 		FCA992C12610DC920037B653 /* Offer-32PrintBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer-32PrintBinaryTree.swift"; sourceTree = "<group>"; };
+		FCA992C62610E01C0037B653 /* 0201RemoveDuplicateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0201RemoveDuplicateNode.swift; sourceTree = "<group>"; };
 		FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821-ShortestDistanceToACharacter.swift"; sourceTree = "<group>"; };
 		FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroOnePackage.swift; sourceTree = "<group>"; };
 		FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309-BestTimeToBuy.swift"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3AE3C325FFA673008D5022 /* TwoNumber.swift */,
+				FCA992C62610E01C0037B653 /* 0201RemoveDuplicateNode.swift */,
 				FCA992C12610DC920037B653 /* Offer-32PrintBinaryTree.swift */,
 				FCA992BC260F8E160037B653 /* Orfer22-LCOF.swift */,
 				FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */,
@@ -358,6 +361,7 @@
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
 				FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */,
 				FC5275DF2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift in Sources */,
+				FCA992C72610E01C0037B653 /* 0201RemoveDuplicateNode.swift in Sources */,
 				FCC1B2A426079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift in Sources */,
 				FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */,
 				FCA992A9260B1FF10037B653 /* 456-132Pattern.swift in Sources */,
