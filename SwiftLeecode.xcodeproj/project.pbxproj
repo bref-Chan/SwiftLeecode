@@ -36,6 +36,7 @@
 		FCA992C72610E01C0037B653 /* 0201RemoveDuplicateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992C62610E01C0037B653 /* 0201RemoveDuplicateNode.swift */; };
 		FCA992CC2611DFB30037B653 /* 190-ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992CB2611DFB30037B653 /* 190-ReverseBits.swift */; };
 		FCA992D12611E3A10037B653 /* QuickCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992D02611E3A10037B653 /* QuickCalculate.swift */; };
+		FCA992D62611F41D0037B653 /* 257-BinaryTreePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA992D52611F41D0037B653 /* 257-BinaryTreePaths.swift */; };
 		FCC1B2A426079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */; };
 		FCF9DAEF2604AAAB0035DC4D /* ZeroOnePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */; };
 		FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */; };
@@ -95,6 +96,7 @@
 		FCA992C62610E01C0037B653 /* 0201RemoveDuplicateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0201RemoveDuplicateNode.swift; sourceTree = "<group>"; };
 		FCA992CB2611DFB30037B653 /* 190-ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "190-ReverseBits.swift"; sourceTree = "<group>"; };
 		FCA992D02611E3A10037B653 /* QuickCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCalculate.swift; sourceTree = "<group>"; };
+		FCA992D52611F41D0037B653 /* 257-BinaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257-BinaryTreePaths.swift"; sourceTree = "<group>"; };
 		FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821-ShortestDistanceToACharacter.swift"; sourceTree = "<group>"; };
 		FCF9DAEE2604AAAB0035DC4D /* ZeroOnePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroOnePackage.swift; sourceTree = "<group>"; };
 		FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309-BestTimeToBuy.swift"; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3AE3C325FFA673008D5022 /* TwoNumber.swift */,
+				FCA992D52611F41D0037B653 /* 257-BinaryTreePaths.swift */,
 				FCA992D02611E3A10037B653 /* QuickCalculate.swift */,
 				FCA992C62610E01C0037B653 /* 0201RemoveDuplicateNode.swift */,
 				FCA992C12610DC920037B653 /* Offer-32PrintBinaryTree.swift */,
@@ -355,6 +358,7 @@
 				FC3AE39425FFA648008D5022 /* ViewController.swift in Sources */,
 				FCA992CC2611DFB30037B653 /* 190-ReverseBits.swift in Sources */,
 				FCA992BD260F8E160037B653 /* Orfer22-LCOF.swift in Sources */,
+				FCA992D62611F41D0037B653 /* 257-BinaryTreePaths.swift in Sources */,
 				FC3FBE9226034FD600E9240C /* 1431-KidsWithTheGreatestNumberOfCandies.swift in Sources */,
 				FCA992B3260DA6BB0037B653 /* 83-RemoveDuplicatesFromSortedList.swift in Sources */,
 				FC3AE3C425FFA673008D5022 /* TwoNumber.swift in Sources */,
