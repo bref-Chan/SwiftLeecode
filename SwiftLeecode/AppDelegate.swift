@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        print(Search2DMatrix.init().searchMatrix([[1,1]], 2))
+        print(Subsets.init().subsets([1,2,3]))
     }
     
     
