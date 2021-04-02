@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        print(Subsets.init().subsets([1,2,3]))
+        ClumnsyFactorial.init().clumsy(4)
     }
     
     

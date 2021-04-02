@@ -31,9 +31,9 @@ class Subsets {
 
         }
         
-        var target = nums[index]
+        let target = nums[index]
         
-        var temp:[[Int]] = result
+        let temp:[[Int]] = result
         
         for i in 0..<temp.count {
             var tempItem = temp[i]
