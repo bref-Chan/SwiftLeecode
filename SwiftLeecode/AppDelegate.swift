@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        ClumnsyFactorial.init().clumsy(4)
+        RabbitsInForest.init().numRabbits([1,0,0,1])
     }
     
     
