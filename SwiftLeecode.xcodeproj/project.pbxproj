@@ -22,6 +22,7 @@
 		FC3FBE9726035C6600E9240C /* KidsWithCandiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9626035C6600E9240C /* KidsWithCandiesTest.swift */; };
 		FC3FBE9C2603649B00E9240C /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FBE9B2603649B00E9240C /* AddDigits.swift */; };
 		FC513097261C3ADF008A3B47 /* 80-RemoveDuplicatesFromSortedArray2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC513096261C3ADF008A3B47 /* 80-RemoveDuplicatesFromSortedArray2.swift */; };
+		FC5130A2261DEF4C008A3B47 /* 33-SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5130A1261DEF4C008A3B47 /* 33-SearchInRotatedSortedArray.swift */; };
 		FC5275DF2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */; };
 		FC645B4C2619A14100A3E5BE /* 781-RabbitsInForest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC645B4B2619A14100A3E5BE /* 781-RabbitsInForest.swift */; };
 		FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */; };
@@ -89,6 +90,7 @@
 		FC3FBE9626035C6600E9240C /* KidsWithCandiesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsWithCandiesTest.swift; sourceTree = "<group>"; };
 		FC3FBE9B2603649B00E9240C /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
 		FC513096261C3ADF008A3B47 /* 80-RemoveDuplicatesFromSortedArray2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "80-RemoveDuplicatesFromSortedArray2.swift"; sourceTree = "<group>"; };
+		FC5130A1261DEF4C008A3B47 /* 33-SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33-SearchInRotatedSortedArray.swift"; sourceTree = "<group>"; };
 		FC5275DE2608A10800712B60 /* 232-ImplementQueueUsingStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232-ImplementQueueUsingStacks.swift"; sourceTree = "<group>"; };
 		FC645B4B2619A14100A3E5BE /* 781-RabbitsInForest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "781-RabbitsInForest.swift"; sourceTree = "<group>"; };
 		FC70603B2603360000AEE91D /* 771-JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "771-JewelsAndStones.swift"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				FCA992DF26146AE20037B653 /* 78-Subsets.swift */,
 				FC513096261C3ADF008A3B47 /* 80-RemoveDuplicatesFromSortedArray2.swift */,
 				FCA992AD260C7BF00037B653 /* 82-RemoveDuplicatesFromSortedList2.swift */,
+				FC5130A1261DEF4C008A3B47 /* 33-SearchInRotatedSortedArray.swift */,
 				FCA992B2260DA6BB0037B653 /* 83-RemoveDuplicatesFromSortedList.swift */,
 				FCA992CB2611DFB30037B653 /* 190-ReverseBits.swift */,
 				FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */,
@@ -392,6 +395,7 @@
 				FCA992B8260F79CB0037B653 /* 61-RotateList.swift in Sources */,
 				FCA992AE260C7BF00037B653 /* 82-RemoveDuplicatesFromSortedList2.swift in Sources */,
 				FC9DF91F2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift in Sources */,
+				FC5130A2261DEF4C008A3B47 /* 33-SearchInRotatedSortedArray.swift in Sources */,
 				FCF9DAFF260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift in Sources */,
 				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,

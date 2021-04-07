@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        RabbitsInForest.init().numRabbits([1,0,0,1])
+        SearchInRotatedSortedArray.init().search([3,1], 1)
     }
     
     
