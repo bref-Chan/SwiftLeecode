@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        SearchInRotatedSortedArray.init().search([3,1], 1)
+        SearchInRotateSortedArray2.init().search([4,5,6,7,0,1,2],0)
     }
     
     

@@ -18,6 +18,10 @@ import Foundation
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
+
+// 心得:二分查找一定要注意只有偶数元素时的方向选择
+// 同时要注意只有两个元素时的方向选择
+
 class SearchInRotatedSortedArray{
     func search(_ nums: [Int], _ target: Int) -> Int {
         // 核心是使用二分查找,那么查找出来的两部分中一定有一部分是有序的
