@@ -67,5 +67,8 @@ class UglyNumber{
         while tempN % 5 == 0 { tempN /= 5 }
         return tempN == 1
         
+        
+        
+        
     }
 }

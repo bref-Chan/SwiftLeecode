@@ -30,6 +30,7 @@
 		FC706041260339AB00AEE91D /* JewelsAndStonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */; };
 		FC7240DB261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7240DA261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift */; };
 		FC7AF7F22621534900C128E5 /* 263-UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AF7F12621534900C128E5 /* 263-UglyNumber.swift */; };
+		FC7AF7FE2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */; };
 		FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AED26022F0E00645C0B /* 58-LCOF.swift */; };
 		FC980AF62602314400645C0B /* LCOFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AF52602314400645C0B /* LCOFTest.swift */; };
 		FC9DF91F2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DF91E2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift */; };
@@ -101,6 +102,7 @@
 		FC706040260339AB00AEE91D /* JewelsAndStonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTest.swift; sourceTree = "<group>"; };
 		FC7240DA261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153-FindMinimuminRotatedSortedArray.swift"; sourceTree = "<group>"; };
 		FC7AF7F12621534900C128E5 /* 263-UglyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "263-UglyNumber.swift"; sourceTree = "<group>"; };
+		FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "154-ind-minimum-in-rotated-sorted-array-ii.swift"; sourceTree = "<group>"; };
 		FC980AED26022F0E00645C0B /* 58-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58-LCOF.swift"; sourceTree = "<group>"; };
 		FC980AF52602314400645C0B /* LCOFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOFTest.swift; sourceTree = "<group>"; };
 		FC9DF91E2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143-LongestCommonSubsequence .swift"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		FC3AE38E25FFA648008D5022 /* SwiftLeecode */ = {
 			isa = PBXGroup;
 			children = (
+				FC7AF7FC2621590300C128E5 /* 困难 */,
 				FCF9DAED2604AA9F0035DC4D /* 中等 */,
 				FC3AE3C225FFA658008D5022 /* 简单 */,
 				FC3AE38F25FFA648008D5022 /* AppDelegate.swift */,
@@ -229,6 +232,14 @@
 				FCA992C62610E01C0037B653 /* ex-0201RemoveDuplicateNode.swift */,
 			);
 			path = "简单";
+			sourceTree = "<group>";
+		};
+		FC7AF7FC2621590300C128E5 /* 困难 */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */,
+			);
+			path = "困难";
 			sourceTree = "<group>";
 		};
 		FCF9DAED2604AA9F0035DC4D /* 中等 */ = {
@@ -409,6 +420,7 @@
 				FC7AF7F22621534900C128E5 /* 263-UglyNumber.swift in Sources */,
 				FCF9DAFF260625F10035DC4D /* 637.-AverageOfLevelsInBinaryTree.swift in Sources */,
 				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
+				FC7AF7FE2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
 				FC3FBE9C2603649B00E9240C /* 258-AddDigits.swift in Sources */,
 				FCA992D12611E3A10037B653 /* 17-QuickCalculate.swift in Sources */,
