@@ -31,6 +31,7 @@
 		FC7240DB261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7240DA261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift */; };
 		FC7AF7F22621534900C128E5 /* 263-UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AF7F12621534900C128E5 /* 263-UglyNumber.swift */; };
 		FC7AF7FE2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */; };
+		FC7AF8062623050800C128E5 /* 264-UglyNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AF8052623050800C128E5 /* 264-UglyNumber2.swift */; };
 		FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AED26022F0E00645C0B /* 58-LCOF.swift */; };
 		FC980AF62602314400645C0B /* LCOFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC980AF52602314400645C0B /* LCOFTest.swift */; };
 		FC9DF91F2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DF91E2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift */; };
@@ -103,6 +104,7 @@
 		FC7240DA261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153-FindMinimuminRotatedSortedArray.swift"; sourceTree = "<group>"; };
 		FC7AF7F12621534900C128E5 /* 263-UglyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "263-UglyNumber.swift"; sourceTree = "<group>"; };
 		FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "154-ind-minimum-in-rotated-sorted-array-ii.swift"; sourceTree = "<group>"; };
+		FC7AF8052623050800C128E5 /* 264-UglyNumber2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "264-UglyNumber2.swift"; sourceTree = "<group>"; };
 		FC980AED26022F0E00645C0B /* 58-LCOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58-LCOF.swift"; sourceTree = "<group>"; };
 		FC980AF52602314400645C0B /* LCOFTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOFTest.swift; sourceTree = "<group>"; };
 		FC9DF91E2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143-LongestCommonSubsequence .swift"; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 				FCA992B2260DA6BB0037B653 /* 83-RemoveDuplicatesFromSortedList.swift */,
 				FC7240DA261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift */,
 				FCA992CB2611DFB30037B653 /* 190-ReverseBits.swift */,
+				FC7AF8052623050800C128E5 /* 264-UglyNumber2.swift */,
 				FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */,
 				FCA992A8260B1FF10037B653 /* 456-132Pattern.swift */,
 				FC645B4B2619A14100A3E5BE /* 781-RabbitsInForest.swift */,
@@ -401,6 +404,7 @@
 				FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */,
 				FC3AE3D22600DDC6008D5022 /* 1480-RunningSumOf1dArray.swift in Sources */,
 				FCA992DB261345340037B653 /* 74-SearchA2DMatrix.swift in Sources */,
+				FC7AF8062623050800C128E5 /* 264-UglyNumber2.swift in Sources */,
 				FC3AE39425FFA648008D5022 /* ViewController.swift in Sources */,
 				FCA992CC2611DFB30037B653 /* 190-ReverseBits.swift in Sources */,
 				FCA992BD260F8E160037B653 /* 22-LCOF.swift in Sources */,
