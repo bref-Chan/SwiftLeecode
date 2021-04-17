@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        UglyNumber2.init().nthUglyNumber(10)
+        ContainsDuplicateIII.init().containsNearbyAlmostDuplicate([0,5,10,15,20,25,2], 4, 2)
     }
     
     
