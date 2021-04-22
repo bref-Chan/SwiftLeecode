@@ -67,39 +67,44 @@ class DecodeWays{
         // 2.s[i-1]为2,此时当s[i]小于7,也可以单独解码也可以合并解码 dp[i] = dp[i-1] + dp[i-2]
         // 3.其余的情况,s[i]只能单独解码 dp[i] = dp[i-1]
         
+        
+        
         if s.count == 0 {
             return 0
         }
         
-        if String(s.first!) == "0" {
-            return 0
+        if s.first == "0"{
+            return 0;
         }
-        
+
         if s.count == 1 {
-            return 1
+            return 1;
         }
-        
+
         let arr = s.map({String($0)})
-        let nums = arr.map({Int($0) ?? 0})
-        
+        var nums = arr.map({Int($0) ?? 0})
+        nums.insert(0, at: 0)
+
         let count = nums.count
         
         var dp : [Int] = Array(repeating: 0, count: count)
         dp[0] = 1;
+        dp[1] = 1;
         
-        for i in 1...count-1 {
+        
+        for i in 2...count-1 {
             let current = nums[i]
             if current == 0 {
                 if nums[i-1] == 1 || nums[i-1] == 2 {
-                    dp[i] = i >= 2 ? dp[i-2] : 1
+                    dp[i] = dp[i-2]
                 }else{
                     return 0
                 }
             }else{
                 if nums[i-1] == 1 {
-                    dp[i] = (i >= 2 ? dp[i-2] : 1) + dp[i-1]
+                    dp[i] = dp[i-2]  + dp[i-1]
                 }else if (nums[i-1] == 2 && current < 7){
-                    dp[i] = (i >= 2 ? dp[i-2] : 1) + dp[i-1]
+                    dp[i] = dp[i-2] + dp[i-1]
                 }else{
                     dp[i] = dp[i-1]
                 }
