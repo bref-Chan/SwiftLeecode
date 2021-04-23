@@ -56,6 +56,7 @@ class NumMatrix {
                 for j in 0..<matrix[0].count {
                     sum += matrix[i][j]
                     self.sums[i][j+1] = sum
+                    
                 }
             }
         }
