@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        LargestDivisibleSubset.init().largestDivisibleSubset([3,4,16,8])
+        IncreasingOrderSearchTree.init().increasingBST(<#T##root: TreeNode?##TreeNode?#>)
     }
     
     
