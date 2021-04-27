@@ -34,7 +34,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        IncreasingOrderSearchTree.init().increasingBST(<#T##root: TreeNode?##TreeNode?#>)
     }
     
     
