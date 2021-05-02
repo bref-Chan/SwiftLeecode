@@ -34,10 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        
-        
-        
-        EmployeeImportance.init().getImportance([Employee.init(1, 5, [2,3]),Employee.init(2, 3, []),Employee.init(3, 3, [])], 1)
+        BrickWall.init().leastBricks([[1],[1],[1]])
     }
     
     

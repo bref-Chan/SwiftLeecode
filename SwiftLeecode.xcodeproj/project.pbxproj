@@ -10,6 +10,7 @@
 		FC2BB95A263BED3900BE1979 /* 137-single-number-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB959263BED3900BE1979 /* 137-single-number-ii.swift */; };
 		FC2BB95F263BF05900BE1979 /* 136-single-number-i.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB95E263BF05900BE1979 /* 136-single-number-i.swift */; };
 		FC2BB970263D5A1900BE1979 /* 690-employee-importance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */; };
+		FC2BB975263E6DA800BE1979 /* 554-BrickWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB974263E6DA800BE1979 /* 554-BrickWall.swift */; };
 		FC3AE39025FFA648008D5022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE38F25FFA648008D5022 /* AppDelegate.swift */; };
 		FC3AE39225FFA648008D5022 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE39125FFA648008D5022 /* SceneDelegate.swift */; };
 		FC3AE39425FFA648008D5022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3AE39325FFA648008D5022 /* ViewController.swift */; };
@@ -89,6 +90,7 @@
 		FC2BB959263BED3900BE1979 /* 137-single-number-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "137-single-number-ii.swift"; sourceTree = "<group>"; };
 		FC2BB95E263BF05900BE1979 /* 136-single-number-i.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136-single-number-i.swift"; sourceTree = "<group>"; };
 		FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "690-employee-importance.swift"; sourceTree = "<group>"; };
+		FC2BB974263E6DA800BE1979 /* 554-BrickWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "554-BrickWall.swift"; sourceTree = "<group>"; };
 		FC3AE38C25FFA647008D5022 /* SwiftLeecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLeecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3AE38F25FFA648008D5022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC3AE39125FFA648008D5022 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */,
 				FCB406952632A15F0002240E /* 368-largest-divisible-subset.swift */,
 				FCA992A8260B1FF10037B653 /* 456-132Pattern.swift */,
+				FC2BB974263E6DA800BE1979 /* 554-BrickWall.swift */,
 				FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */,
 				FC645B4B2619A14100A3E5BE /* 781-RabbitsInForest.swift */,
 				FCA992EC26156B530037B653 /* 971-FlipBinaryTree.swift */,
@@ -483,6 +486,7 @@
 				FCA992E8261566DC0037B653 /* 1006-ClumsyFactorial.swift in Sources */,
 				FC645B4C2619A14100A3E5BE /* 781-RabbitsInForest.swift in Sources */,
 				FCB4068C26302DD00002240E /* 91-decode-ways.swift in Sources */,
+				FC2BB975263E6DA800BE1979 /* 554-BrickWall.swift in Sources */,
 				FC8B1CB9262AFAB100E4AAD0 /* 220-contains-duplicate-iii.swift in Sources */,
 				FC7240DB261F494B002D8AC1 /* 153-FindMinimuminRotatedSortedArray.swift in Sources */,
 			);
