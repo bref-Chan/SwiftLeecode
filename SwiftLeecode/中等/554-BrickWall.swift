@@ -42,14 +42,6 @@ import Foundation
 
 class BrickWall {
     func leastBricks(_ wall: [[Int]]) -> Int {
-        // 因为沿着边缘是不算穿过砖块的.这个问题可以简化为查找某个位置边缘最多
-        // 可以先处理数组,先计算总共有多少个位置可以作为边缘
-        var sideCount = 0;
-        for num in wall[0]{
-            sideCount += num;
-        }
-        // 计算出来的边缘数量为sideCount - 1
-        // 重新构建数组
         
         var resultHashmap = [Int:Int]()
         for (index,wallLine) in wall.enumerated() {
@@ -68,9 +60,9 @@ class BrickWall {
         if resultHashmap.values.count == 0 {
             return wall.count
         }else{
-            var result = Array.init(resultHashmap.values)
-            result.sort()
-            return wall.count - result.last!
+            
+           
+            return wall.count -  resultHashmap.values.max()!
         }
         
     }
