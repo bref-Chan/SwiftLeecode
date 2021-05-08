@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FC0B3FB02643FE95001E1F31 /* 1720-decode-xored-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B3FAF2643FE95001E1F31 /* 1720-decode-xored-array.swift */; };
+		FC0B3FB5264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */; };
 		FC2BB95A263BED3900BE1979 /* 137-single-number-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB959263BED3900BE1979 /* 137-single-number-ii.swift */; };
 		FC2BB95F263BF05900BE1979 /* 136-single-number-i.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB95E263BF05900BE1979 /* 136-single-number-i.swift */; };
 		FC2BB970263D5A1900BE1979 /* 690-employee-importance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */; };
@@ -89,6 +90,7 @@
 
 /* Begin PBXFileReference section */
 		FC0B3FAF2643FE95001E1F31 /* 1720-decode-xored-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1720-decode-xored-array.swift"; sourceTree = "<group>"; };
+		FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1723-find-minimum-time-to-finish-all-jobs.swift"; sourceTree = "<group>"; };
 		FC2BB959263BED3900BE1979 /* 137-single-number-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "137-single-number-ii.swift"; sourceTree = "<group>"; };
 		FC2BB95E263BF05900BE1979 /* 136-single-number-i.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136-single-number-i.swift"; sourceTree = "<group>"; };
 		FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "690-employee-importance.swift"; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */,
+				FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */,
 			);
 			path = "困难";
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0B3FB5264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift in Sources */,
 				FCB406962632A1600002240E /* 368-largest-divisible-subset.swift in Sources */,
 				FCA992ED26156B530037B653 /* 971-FlipBinaryTree.swift in Sources */,
 				FC9FBB60260A10DC00D00894 /* 169-MajorityElement.swift in Sources */,

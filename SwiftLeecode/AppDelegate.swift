@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func test() {
-        BrickWall.init().leastBricks([[1],[1],[1]])
+        FindMinimumTimeToFinishAllJobs.init().minimumTimeRequired([3,2,3], 3)
     }
     
     
