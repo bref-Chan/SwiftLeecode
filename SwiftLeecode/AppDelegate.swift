@@ -32,9 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+   
+   
     func test() {
-        FindMinimumTimeToFinishAllJobs.init().minimumTimeRequired([3,2,3], 3)
+        XorQueriesOfASubarray.init().xorQueries( [4,8,2,10],  [[2,3],[1,3],[0,0],[0,3]])
     }
     
     
