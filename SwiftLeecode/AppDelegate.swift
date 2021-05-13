@@ -35,7 +35,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
    
    
     func test() {
-        XorQueriesOfASubarray.init().xorQueries( [4,8,2,10],  [[2,3],[1,3],[0,0],[0,3]])
+        NumberOfWaysToStayInTheSamePlaceAfterSOmeSteps.init().numWays(4, 2)
+        
     }
     
     

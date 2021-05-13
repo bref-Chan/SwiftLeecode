@@ -10,6 +10,7 @@
 		FC0B3FB02643FE95001E1F31 /* 1720-decode-xored-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B3FAF2643FE95001E1F31 /* 1720-decode-xored-array.swift */; };
 		FC0B3FB5264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */; };
 		FC140E44264BB8CC005019ED /* 1310-xor-queries-of-a-subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC140E43264BB8CC005019ED /* 1310-xor-queries-of-a-subarray.swift */; };
+		FC140E49264D25DC005019ED /* 1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC140E48264D25DC005019ED /* 1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift */; };
 		FC2BB95A263BED3900BE1979 /* 137-single-number-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB959263BED3900BE1979 /* 137-single-number-ii.swift */; };
 		FC2BB95F263BF05900BE1979 /* 136-single-number-i.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB95E263BF05900BE1979 /* 136-single-number-i.swift */; };
 		FC2BB970263D5A1900BE1979 /* 690-employee-importance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */; };
@@ -94,6 +95,7 @@
 		FC0B3FAF2643FE95001E1F31 /* 1720-decode-xored-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1720-decode-xored-array.swift"; sourceTree = "<group>"; };
 		FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1723-find-minimum-time-to-finish-all-jobs.swift"; sourceTree = "<group>"; };
 		FC140E43264BB8CC005019ED /* 1310-xor-queries-of-a-subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1310-xor-queries-of-a-subarray.swift"; sourceTree = "<group>"; };
+		FC140E48264D25DC005019ED /* 1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift"; sourceTree = "<group>"; };
 		FC2BB959263BED3900BE1979 /* 137-single-number-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "137-single-number-ii.swift"; sourceTree = "<group>"; };
 		FC2BB95E263BF05900BE1979 /* 136-single-number-i.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136-single-number-i.swift"; sourceTree = "<group>"; };
 		FC2BB96F263D5A1900BE1979 /* 690-employee-importance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "690-employee-importance.swift"; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */,
+				FC140E48264D25DC005019ED /* 1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift */,
 				FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */,
 			);
 			path = "困难";
@@ -477,6 +480,7 @@
 				FC140E44264BB8CC005019ED /* 1310-xor-queries-of-a-subarray.swift in Sources */,
 				FC5130A7261E00F4008A3B47 /* 81-SearchInRotatedSortedArray2.swift in Sources */,
 				FCA992AE260C7BF00037B653 /* 82-RemoveDuplicatesFromSortedList2.swift in Sources */,
+				FC140E49264D25DC005019ED /* 1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift in Sources */,
 				FC7AF80B2625919200C128E5 /* 783-minimum-distance-between-bst-nodes.swift in Sources */,
 				FC9DF91F2618A33900CD0E8A /* 1143-LongestCommonSubsequence .swift in Sources */,
 				FC8B1CBE262C56B300E4AAD0 /* 26-remove-duplicates-from-sorted-array.swift in Sources */,
