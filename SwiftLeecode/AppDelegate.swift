@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
    
    
     func test() {
-        NumberOfWaysToStayInTheSamePlaceAfterSOmeSteps.init().numWays(4, 2)
+        IntegerToRoman.init().intToRoman(9);
         
     }
     
