@@ -69,6 +69,7 @@
 		FCB40691263169290002240E /* 304-RangeSumQuery2dImmutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB40690263169290002240E /* 304-RangeSumQuery2dImmutable.swift */; };
 		FCB406962632A1600002240E /* 368-largest-divisible-subset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB406952632A15F0002240E /* 368-largest-divisible-subset.swift */; };
 		FCC1B2A426079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */; };
+		FCC4F09B26594D5900642B74 /* 810-chalkboard-xor-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4F09A26594D5900642B74 /* 810-chalkboard-xor-game.swift */; };
 		FCCB717F264E69630099AB20 /* 12-IntegerToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB717E264E69630099AB20 /* 12-IntegerToRoman.swift */; };
 		FCF9DAEF2604AAAB0035DC4D /* ex-ZeroOnePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAEE2604AAAB0035DC4D /* ex-ZeroOnePackage.swift */; };
 		FCF9DAFA2604DD910035DC4D /* 309-BestTimeToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */; };
@@ -161,6 +162,7 @@
 		FCB40690263169290002240E /* 304-RangeSumQuery2dImmutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "304-RangeSumQuery2dImmutable.swift"; sourceTree = "<group>"; };
 		FCB406952632A15F0002240E /* 368-largest-divisible-subset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "368-largest-divisible-subset.swift"; sourceTree = "<group>"; };
 		FCC1B2A326079E8A0050FA03 /* 821-ShortestDistanceToACharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821-ShortestDistanceToACharacter.swift"; sourceTree = "<group>"; };
+		FCC4F09A26594D5900642B74 /* 810-chalkboard-xor-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "810-chalkboard-xor-game.swift"; sourceTree = "<group>"; };
 		FCCB717E264E69630099AB20 /* 12-IntegerToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12-IntegerToRoman.swift"; sourceTree = "<group>"; };
 		FCF9DAEE2604AAAB0035DC4D /* ex-ZeroOnePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ex-ZeroOnePackage.swift"; sourceTree = "<group>"; };
 		FCF9DAF92604DD910035DC4D /* 309-BestTimeToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "309-BestTimeToBuy.swift"; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				FC7AF7FD2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift */,
+				FCC4F09A26594D5900642B74 /* 810-chalkboard-xor-game.swift */,
 				FC140E48264D25DC005019ED /* 1269-number-of-ways-to-stay-in-the-same-place-after-some-steps.swift */,
 				FC0B3FB4264669F6001E1F31 /* 1723-find-minimum-time-to-finish-all-jobs.swift */,
 			);
@@ -496,6 +499,7 @@
 				FC70603C2603360000AEE91D /* 771-JewelsAndStones.swift in Sources */,
 				FC7AF7FE2621591C00C128E5 /* 154-ind-minimum-in-rotated-sorted-array-ii.swift in Sources */,
 				FC980AEE26022F0E00645C0B /* 58-LCOF.swift in Sources */,
+				FCC4F09B26594D5900642B74 /* 810-chalkboard-xor-game.swift in Sources */,
 				FC2BB970263D5A1900BE1979 /* 690-employee-importance.swift in Sources */,
 				FC3FBE9C2603649B00E9240C /* 258-AddDigits.swift in Sources */,
 				FCA992D12611E3A10037B653 /* 17-QuickCalculate.swift in Sources */,
